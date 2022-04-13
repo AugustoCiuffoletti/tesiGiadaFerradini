@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css?family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+
+body{
+    background-image: url("Immagini/Cosmo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#titolo {
+	text-align: center;
+	color: white;
+	padding: 6px 12px;
+	text-decoration: none;
+	font-size: 100px;
+	font-family:'Stylish', sans-serif;
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 250px;
+	margin-bottom: 2px;
+}
+
+#Mappa {
+	margin-top: 2%;
+	width: 90%;
+}
+
+.icona {
+	width: 120px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 260px;
+}
+
+.frecciaGiu {
+	width: 3.5%;
+	float: right;
+	margin-right: 15px;
+}
+
+ul.navmen {
+	text-align: center;
+    overflow: hidden;
+    padding-right: 40px;
+    margin-bottom: 35px;
+  	border-radius : 10px;
+    opacity: 0.9;
+}
+
+ul.navmen li {
+    text-align: center;
+    display: inline-block;
+}
+
+li a {
+	color: white;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-size: 42px;
+	font-family:'Stylish', sans-serif ;
+}
+
+li a:hover {
+	background-color: white;
+	color: #003153;
+	border-radius: 40px;
+}
+
+a#selezionatomenu {
+	background-color: #F2D7FF;
+	color: #003153;
+	border-radius: 40px;
+}
+
+
+li.elencofanta{
+	font-size: 22px; 
+	text-align: left;
+	padding-right: 12px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+div.contenitore {
+	background-color: rgba(242, 242, 242, 0.9);
+	width: 80%;
+	margin-left : 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding-top : 1%;
+	padding-bottom: 2%;
+	text-align: center;
+	border-radius : 15px;
+	font-family:'Stylish', sans-serif;
+	font-size: 18px;	
+}
+
+
+.grglia-contenitore {
+	display: grid;
+	grid-template-rows: 7.5% 8.5% 7.5% 6% 7% 6% 6% 4.5% 5.5% 6.5% 7.5% 5% 5.5% 7% 6% 9% 6.5% 5% 4.5% 3%;
+	color: black;
+	padding-top: 1%;
+	padding-bottom: 33.5%;
+	margin-left: 4%;
+	width: 14%;
+	border-radius: 15px;
+	border: solid 3px white;
+	align-items: start;
+	float: left; 
+	background-color: rgba(242, 242, 242, 0.9);
+	font-family: 'Comfortaa', cursive;	
+}
+
+.griglia-item {
+	padding: 20px;
+	font-size: 18px;
+	text-align: left;
+}
+
+.grglia-contenitore2 {
+	display: grid;
+	grid-template-rows: auto;
+	color: black;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-right: 4%;
+	width: 76%;
+	border-radius: 15px;
+	border: solid 3px white;
+	align-items: start;
+	float: right;
+	background-color: rgba(242, 242, 242, 0.9);
+	font-family: 'Comfortaa', cursive;
+}
+
+.griglia-item2 {
+	padding: 20px;
+	padding-bottom: 1px;
+	padding-top: 12px;
+	font-size: 19px;
+	text-align: left;
+}
+
+.contenitore3 {
+	display: inline-block;
+	color: black;
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding-top : 1%;
+	padding-bottom: 2%;
+	width: 80%;
+	border-radius: 15px;
+	border: solid 3px white;
+	float: center;
+	background-color: rgba(242, 242, 242, 0.9);
+	text-align: center;
+	font-family: 'Comfortaa', cursive;	
+}
+
+.contenitore3 p {
+	font-size: 19px;
+
+}
+
+.contenitore3 h3 {
+	text-align: center;
+} 
+
+div.cronologia {
+	background-color: rgba(171, 205, 239, 0.8);
+	border-radius : 15px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 17% 38% 8% 8% 9% 8%;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	justify-items: start;
+}
+
+.grid-item {
+	padding: 20px;
+	font-size: 19px;
+	text-align: center;
+}
+
+#freccia {
+	width: 100%;
+}
+
+.grid-container-2 {
+	display: grid;
+	grid-template-columns: 7% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 13%;
+	padding: 10px;
+}
+
+.grid-item-2 {
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.bottone-grid {
+	width: 10px; 
+	color: black;
+	background-color: #FFBF00;
+	border-radius: 15px;
+	border-color: gray;
+	font-family:'Stylish', sans-serif;
+}
+
+.bottone-grid:hover {
+	background-color: purple;
+}
+
+.bottonePers {
+	border-radius: 15px;
+	width: 15%;
+	padding: 1%;
+	margin: 20px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+p {
+	font-size: 22px;
+	text-align: justify;
+	padding: 30px;
+	padding-top: 2px;
+	padding-bottom: 2px; 
+	margin-top: 2px;
+	margin-bottom: 2px;	
+}
+
+.scatoletemi {
+	display: flex; 
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch; 
+}
+
+.scatola {
+	flex-basis: 22%;
+	padding: 3%;
+	margin: 2%; 
+	border: solid 4px white; 
+	border-radius: 15px;
+	background-color: #F2D7FF;
+	color: black; 
+	font-size: 30px;
+	font-family:'Stylish', sans-serif;
+	text-align: center;
+}
+
+.overlay {
+	font-weight : bold;
+	width : 100%;
+	height : 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color :  rgba(0, 0, 0, 0.85);
+	font-family: 'Merienda', cursive;
+	margin : 0;
+	z-index : 2;
+	position : fixed;	
+	overflow : scroll;
+}
+
+.overlay p {
+	color: white;
+	display: inline-block;
+}
+
+.temitesto {
+	display: none;
+	font-size: 20px;
+	color: black; 
+	text-align: center; 
+	border-color: white; 
+	background-color: white; 
+	opacity: 0.9;
+	width: 70%;
+	margin-left: 13%; 
+	margin-right: 5%;
+	margin-top: 3%; 
+	margin-bottom: 5%;
+	padding: 2%;
+	border-radius: 15px;
+}
+	
+
+#myBtn {  
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 10px;
+  border: none;
+  outline: none;
+  background-color: rrgba(171, 205, 239, 0.8);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 45px;
+}
+
+.imgMybtn{
+	width: 25px;
+	
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.citazione-testo{
+	font-size: 20px;
+	text-align: justify;
+	padding: 30px;
+	padding-top: 2px;
+	padding-bottom: 2px; 
+	margin-top: 2px;
+	margin-bottom: 2px;	
+	font-style: italic;
+	
+}
+
+#legenda{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: solid 3px white; 
+	border-radius: 15px;
+	background-color: #F2D7FF;
+}	
+
+.nero{
+	color: black;
+}
+
+.rosso{
+	color: red;
+}
+
+.verde {
+	color: green;
+}
+
+.blu{
+	color: blue;
+}
+
+.Scatola {
+	display: flex;
+}
+
+.Posizionamento {
+	justify-content: space-between;
+	flex-basis: 25%;
+	flex-grow: 1;
+}
+
+#Raccolta3{
+	flex-basis: 50%;
+}
+
+.Posizionamento2 {
+	float: left;
+	width: 50%;
+}
+
+.Posizionamento4{
+	justify-content: space-between;
+	flex-basis: auto;
+	flex-grow: 1;
+	float: left;
+	width: 33%;
+}
+
+
+
